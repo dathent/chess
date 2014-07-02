@@ -1,0 +1,22 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>CHESS</title>
+			<?php if(isset($_SESSION['alert'])){print $_SESSION['alert']; unset($_SESSION['alert']);}?>
+            <link rel= 'stylesheet' href='<?php print URL.'css/style.css'; ?>'>
+        </head>
+        <body>
+            <?php include_once($_SERVER['DOCUMENT_ROOT'].'/chess/html/header.inc'); ?>
+            <main>
+                <nav>
+                </nav>
+			<form action='<?php print URL."login/"; ?>' method='GET' style='text-align: center'>
+				<input type='hidden' name='email' value='<?php print $_GET['email'] ?>' >
+                <p> Enter activate code: <input type='text' name='confirm' required size='50'></p>
+                <input type='submit' value='Activate'>
+            </form>
+            </main>
+            <?php include_once($_SERVER['DOCUMENT_ROOT'].'/chess/html/footer.inc'); ?>
+		</body>
+	</html>

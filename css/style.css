@@ -1,0 +1,211 @@
+body{
+	margin:0;
+}
+iframe{
+display: none;
+}
+.ho_adv{
+position: absolute;
+margin-top: -20px;
+}
+header, main, nav, footer{
+	width: 1000px;
+	margin: 0 auto;
+}
+header{
+    display: table;
+	background: #eed;
+	height: 100px;
+position: relative;
+}
+main{
+    background: url("../img/chess.jpg")no-repeat #f6f6f6;
+    height: 751px;
+	display: table;
+}
+nav{
+    height: 30px;
+    background: #ebdb8d;
+}
+footer{
+    height: 20px;
+    background: #ebdb8d;
+    text-align: center;
+}
+ul{
+    margin:0;
+}
+
+.end_game{
+	font-size: 4em;
+	text-shadow: 0 0 10px red;
+}
+.form_admin select{
+	height: 200px; 
+	width: 160px;
+}
+.form_admin{
+	float: right;
+}
+.form_admin fieldset, .user_form fieldset , .history_game{
+  background: #eed;
+  padding: 5px;
+}
+.user_form{
+	padding: 10px;
+	width: 40%;
+	color: #000;
+}
+.form_stroke, .history_game{
+	margin-left: 400px;
+}
+.history_game{
+    display: block;
+    overflow: auto;
+    height: 150px;
+    width: 230px;
+    border: 1px solid #000000;
+    margin: 0;
+    padding: 0 2px;
+}
+.history_game caption, .history_game table{
+
+    width: 100%;
+}
+.history_game caption{
+border: 1px solid #000000;
+}
+.history_game table td{
+	border: none;
+}
+.user_form legend{
+	font-size: 1.4em;
+	color: #000;
+}
+.input_form_user{
+	width: 200px;
+	color: #33e;
+}
+.input_form_admin{
+	width: 98%;
+	margin: auto;
+}
+.input_form_admin_option{
+	width: 80px;
+}
+.admin_table, .top{
+	margin-top: 10px;
+	width: 82%;
+	background: #eed;
+	border-spacing: 0;
+	padding: 0px;
+}
+
+.top{
+	margin: 10px;
+	width: 90%;
+	clear: right;
+}
+
+.game_table{
+	float: left;
+	height: 600px;
+	width: 70%;
+}
+
+.top_list{
+	width: 48%;
+    float: left;
+}
+.finish_table, .active_table{
+	margin-top: 20px;
+	width: 100%;
+	height: 50%;
+	overflow-y: auto;
+	border: 1px solid #000000;
+}
+
+.active_table{
+
+}
+
+.top_list{
+	width: 40%;
+}
+aside{
+	float: right;
+	width: 25%;
+	margin-right: 15px;
+}
+
+.top caption{
+	font-size: 1.2em;
+	font-weight: 700;
+	background: #ebdb8d;
+	border: 1px solid black;
+}
+
+.admin_table td, .admin_table th , .top td, .top th{
+	padding: 4px;
+	border: 1px solid black;
+}
+.li_nav_buttom{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    right: 30px;
+}
+.nav_buttom{
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 1px solid #f8bb00;
+    color: #f8f8f8;
+    text-shadow: 0 0 5px black;
+}
+.nav_buttom:hover{
+    font-size:1.2em ;
+}
+.buttom_logout, .buttom_login, .buttom_register, .buttom_account, .buttom_admin, .buttom_mainMenu, .buttom_user{
+    margin: 4px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+	font-weight: 600;
+    width: 80px;
+    height: 20px;
+    padding: 3px 3px 3px 0  ;
+    background: linear-gradient(to top,#ebdb8d, #f8bb00, #ebdb8d);
+    border: 1px solid #000;
+    border-radius: 6px ;
+    box-shadow: 0 0 5px 1px #aaa;
+
+}
+.submit{
+	height: 26px;
+}
+.buttom_login:hover, .buttom_logout:hover, .buttom_register:hover, .buttom_account:hover, .buttom_admin:hover, .buttom_mainMenu:hover, .buttom_user:hover{
+    box-shadow: 0 0 5px 1px #aaa , 0 0 3px 2px #fff;
+    background: linear-gradient(to top, #f8bb00, #ebdb8d, #f8bb00);
+    text-shadow: 0 0 10px #fff;
+}
+
+.login, .name_user{
+	position: absolute;
+	top: 0;
+	margin-left: 900px; 
+}
+.name_user{
+	margin-left: 490px;
+	font-size: 1.5em;
+	width: 500px;
+	top: 70px;
+	text-align: right;
+
+}
+
+.li_mainMenu{
+	display: inline-block;
+	margin-top: 60px;
+}

@@ -1,0 +1,24 @@
+.desk, .desk td, .desk th{
+    border: 1px solid black;
+	border-spacing: 0;
+
+}
+.color_black{
+    background: #ebdb8d;
+}
+.color_white{
+    background: white;
+}
+.cell_desk{
+    width: 50px;
+    height: 50px;
+}
+.desk_game{
+	margin: 20px;
+	float: left;
+}
+.marking_desk{
+	padding: 0 5px;
+	background: white;
+	font-size: 1.2em;
+}
